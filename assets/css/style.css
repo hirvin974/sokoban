@@ -1,0 +1,303 @@
+@font-face {
+  font-family: "fora";
+  src: url(../font/fora.ttf);
+}
+
+@font-face {
+  font-family: "digit";
+  src: url(../font/digit.ttf);
+}
+
+@font-face {
+  font-family: "poke";
+  src: url(../font/poke.ttf);
+}
+
+@font-face {
+  font-family: "pokemon";
+  src: url(../font/pokemon.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.p_accueil {
+  background-image: url(../img/background_head.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  padding: 230px 0;
+}
+
+.p_accueil .titre h1 {
+  color: white;
+}
+
+.p_accueil .titre h2 {
+  color: white;
+  padding: 100px 0 25px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p_accueil .titre p {
+  font-size: 34px;
+  color: #FFFF00;
+}
+
+.go {
+  font-size: 34px;
+  color: red;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(220, 220, 220, 0.7);
+}
+
+body {
+  background-image: url(../img/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: url("data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEQD/AODc1wAcGhcA//36AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMAAAAAAAAAAAAAAAAAMyIiMwAAAAAAAAAAAAAAAyREIiIwAAAAAAAAAAAAAANEQzIiMAAAAAAAAAAAAAA0MzIjMyMAAAAAAAAAAAAAMxE0IxEzAAAAAAAAAAAAADEREzEREwAAAAAAAAAAAAAxEUERERMAAAAAAAAAAAAAAxREEREwAAAAAAAAAAAAAAMRQRERMAAAAAAAAAAAAAAAMxERMwAAAAAAAAAAAAAAAAAzMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////h////gH///wA///8AP//+AB///gAf//4AH//+AB///wA///8AP///gH///+H////////9/////P////w=="), auto;
+}
+
+body h1 {
+  margin-top: 5%;
+  color: red;
+  text-align: center;
+  font-family: "fora";
+  font-size: 40px;
+}
+
+body h2 {
+  text-align: center;
+  font-family: "digit";
+  font-size: 40px;
+}
+
+body .map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .menu_gauche {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .legend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: red;
+}
+
+body .legend p {
+  margin-left: 120px;
+}
+
+body .legend .fas {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px black solid;
+  width: 50px;
+  color: red;
+  background-color: rgba(220, 220, 220, 0.7);
+}
+
+body article {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+      grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+  -ms-grid-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+      grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+  width: 600px;
+  padding: 80px 0;
+}
+
+body article #pikachu {
+  background-image: url(../img/pikachu.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+}
+
+body article .route {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/sol.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .mur {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/herbe.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .hyperball {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/hyperball.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .superball {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/superball.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .pokeball {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/pokeball.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .sacha {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/sacha2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .carapuce {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/carapuce.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .salameche {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/salameche.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .reptincel {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/reptincel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .dracaufeu {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/dracaufeu.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .ondine {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/ondine.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .grotte {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/grotte.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body article .lac {
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/lac.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body button {
+  cursor: url("data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEQD/AODc1wAcGhcA//36AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMAAAAAAAAAAAAAAAAAMyIiMwAAAAAAAAAAAAAAAyREIiIwAAAAAAAAAAAAAANEQzIiMAAAAAAAAAAAAAA0MzIjMyMAAAAAAAAAAAAAMxE0IxEzAAAAAAAAAAAAADEREzEREwAAAAAAAAAAAAAxEUERERMAAAAAAAAAAAAAAxREEREwAAAAAAAAAAAAAAMRQRERMAAAAAAAAAAAAAAAMxERMwAAAAAAAAAAAAAAAAAzMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////h////gH///wA///8AP//+AB///gAf//4AH//+AB///wA///8AP///gH///+H////////9/////P////w=="), auto !important;
+  border-radius: 0 !important;
+}
+
+body button:hover {
+  color: black !important;
+}
+
+body audio {
+  cursor: url("data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEQD/AODc1wAcGhcA//36AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMAAAAAAAAAAAAAAAAAMyIiMwAAAAAAAAAAAAAAAyREIiIwAAAAAAAAAAAAAANEQzIiMAAAAAAAAAAAAAA0MzIjMyMAAAAAAAAAAAAAMxE0IxEzAAAAAAAAAAAAADEREzEREwAAAAAAAAAAAAAxEUERERMAAAAAAAAAAAAAAxREEREwAAAAAAAAAAAAAAMRQRERMAAAAAAAAAAAAAAAMxERMwAAAAAAAAAAAAAAAAAzMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////h////gH///wA///8AP//+AB///gAf//4AH//+AB///wA///8AP///gH///+H////////9/////P////w=="), auto;
+  color: #ffff00;
+}
+
+.alert-success {
+  font-family: "poke";
+  color: black;
+  position: absolute;
+  top: 0;
+  width: 96%;
+  margin: 600px 2% 0 2%;
+  height: 150px;
+  text-align: center;
+  border: #FFFF00;
+  display: none;
+}
+
+.alert-success h4 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.alert-success p {
+  font-size: 14px;
+  font-weight: 700;
+  color: red;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.grille2 #pikachu {
+  background-image: url(../img/pikachu3.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+}
+
+.grille3 #pikachu {
+  background-image: url(../img/pikachu2.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+}
+/*# sourceMappingURL=style.css.map */
